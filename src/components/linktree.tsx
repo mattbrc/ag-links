@@ -15,7 +15,7 @@ export function Linktree() {
         height="50"
       />
       <div className="font-mono flex flex-col items-center justify-center mt-4">
-        <p>@ACIDGAMBIT</p>
+        <p className="bg-zinc-700 px-1 rounded-lg">@ACIDGAMBIT</p>
         <div className="flex flex-col items-center justify-center mt-4">
           <Button variant={"aglink"} asChild>
             <Link href="https://app.cal.com/acidgambit/30min">
