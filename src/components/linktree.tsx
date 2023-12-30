@@ -2,6 +2,7 @@ import Link from "next/link";
 import { AgAvatar } from "./ag-avatar";
 import { Button } from "./ui/button";
 import Image from "next/image";
+import { Footer } from "./footer";
 
 export function Linktree() {
   return (
@@ -40,6 +41,7 @@ export function Linktree() {
             <Link href="https://acidgambit.substack.com/">AG Writing</Link>
           </Button>
         </div>
+        <Footer />
       </div>
     </div>
   );
