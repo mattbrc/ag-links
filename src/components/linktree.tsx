@@ -32,6 +32,17 @@ export function Linktree() {
           </Button>
           <Button
             onClick={() => {
+              track("studio");
+            }}
+            variant={"aglink"}
+            asChild
+          >
+            <Link href="https://app.acidgambit.com/">
+              Gambit Training App (coming soon)
+            </Link>
+          </Button>
+          <Button
+            onClick={() => {
               track("discord");
             }}
             variant={"aglink"}
