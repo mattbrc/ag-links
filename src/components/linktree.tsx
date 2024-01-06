@@ -38,9 +38,7 @@ export function Linktree() {
             variant={"aglink"}
             asChild
           >
-            <Link href="https://app.acidgambit.com/">
-              Gambit Training App (coming soon)
-            </Link>
+            <Link href="https://app.acidgambit.com/">Gambit Training App</Link>
           </Button>
           <Button
             onClick={() => {
