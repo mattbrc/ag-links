@@ -18,7 +18,8 @@ export function Linktree() {
       />
       <div className="font-mono flex flex-col items-center justify-center mt-4">
         <p className="bg-zinc-700 px-1 rounded-lg">@ACIDGAMBIT</p>
-        <div className="flex flex-col items-center justify-center mt-4">
+        {/* <div className="flex flex-col items-center justify-center mt-4"> */}
+        <div className="mt-4 grid items-center justify-center">
           <Button
             onClick={() => {
               track("coaching");
