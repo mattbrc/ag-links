@@ -20,7 +20,7 @@ export function Linktree() {
         <p className="bg-zinc-700 px-1 rounded-lg">@ACIDGAMBIT</p>
         {/* <div className="flex flex-col items-center justify-center mt-4"> */}
         <div className="mt-4 grid items-center justify-center">
-          <Button
+          {/* <Button
             onClick={() => {
               track("coaching");
             }}
@@ -30,7 +30,7 @@ export function Linktree() {
             <Link href="https://app.cal.com/acidgambit/30min">
               Coaching Intro Call (Free)
             </Link>
-          </Button>
+          </Button> */}
           <Button
             onClick={() => {
               track("studio");
