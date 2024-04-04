@@ -3,7 +3,7 @@ import Link from "next/link";
 import { AgAvatar } from "./ag-avatar";
 import { Button } from "./ui/button";
 import Image from "next/image";
-import { Footer } from "./footer";
+import { Socials } from "./socials";
 import { track } from "@vercel/analytics";
 
 export function Linktree() {
@@ -75,7 +75,7 @@ export function Linktree() {
             <Link href="https://acidgambit.substack.com/">AG Writing</Link>
           </Button>
         </div>
-        <Footer />
+        <Socials />
       </div>
     </div>
   );

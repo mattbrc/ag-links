@@ -3,6 +3,7 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "AG Links",
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body>
         {children}
         <Analytics />
+        <Footer />
       </body>
     </html>
   );
