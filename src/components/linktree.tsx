@@ -19,8 +19,8 @@ export function Linktree() {
       <div className="font-mono flex flex-col items-center justify-center mt-4">
         <p className="bg-zinc-700 px-1 rounded-lg">@ACIDGAMBIT</p>
         {/* <div className="flex flex-col items-center justify-center mt-4"> */}
-        <div className="mt-4 grid items-center justify-center">
-          {/* <Button
+        <div className="grid grid-cols-1 mt-4 items-center justify-center w-96">
+          <Button
             onClick={() => {
               track("coaching");
             }}
@@ -28,9 +28,9 @@ export function Linktree() {
             asChild
           >
             <Link href="https://app.cal.com/acidgambit/30min">
-              Coaching Intro Call (Free)
+              Apply for Coaching
             </Link>
-          </Button> */}
+          </Button>
           <Button
             onClick={() => {
               track("studio");
@@ -51,16 +51,8 @@ export function Linktree() {
               Official AG Discord
             </Link>
           </Button>
-          <Button
-            onClick={() => {
-              track("phraks");
-            }}
-            variant={"aglink"}
-            asChild
-          >
-            <Link href="https://acidgambit.gumroad.com/l/training">
-              Get the AG Phraks Variant Program (Free)
-            </Link>
+          <Button variant={"aglinkDisabled"} asChild className="w-full">
+            <Link href="">Shop Merch (coming soon)</Link>
           </Button>
           <Button
             onClick={() => {
