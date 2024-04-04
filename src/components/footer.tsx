@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <h1 className="font-mono text-sm">2024 ACID GAMBIT</h1>
             <p className="text-sm text-gray-500 dark:text-gray-400">
-              Washington, D.C. USA
+              Washington D.C., USA
             </p>
           </div>
         </div>
