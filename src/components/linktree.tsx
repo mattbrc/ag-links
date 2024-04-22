@@ -5,6 +5,7 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 import { Socials } from "./socials";
 import { track } from "@vercel/analytics";
+import { ReferralButton } from "./referral";
 
 export function Linktree() {
   return (
@@ -51,9 +52,9 @@ export function Linktree() {
               Official AG Discord
             </Link>
           </Button>
-          <Button variant={"aglinkDisabled"} asChild className="w-full">
+          {/* <Button variant={"aglinkDisabled"} asChild className="w-full">
             <Link href="">Shop Merch (coming soon)</Link>
-          </Button>
+          </Button> */}
           <Button
             onClick={() => {
               track("gumroad");
@@ -74,6 +75,7 @@ export function Linktree() {
           >
             <Link href="https://acidgambit.substack.com/">AG Writing</Link>
           </Button>
+          <ReferralButton />
         </div>
         <Socials />
       </div>
