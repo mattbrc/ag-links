@@ -20,7 +20,7 @@ export function ReferralButton() {
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle>AG Referral Program</DialogTitle>
+          <DialogTitle className="font-mono">AG Referral Program</DialogTitle>
           <DialogDescription>
             Refer a friend for 1:1 coaching and receive $50 after 1 month of
             coaching.
