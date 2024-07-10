@@ -41,17 +41,7 @@ export function Linktree() {
           >
             <Link href="https://app.acidgambit.com/">Gambit Training App</Link>
           </Button>
-          <Button
-            onClick={() => {
-              track("discord");
-            }}
-            variant={"aglink"}
-            asChild
-          >
-            <Link href="https://discord.gg/W4x3Eej95q">
-              Official AG Discord
-            </Link>
-          </Button>
+
           {/* <Button variant={"aglinkDisabled"} asChild className="w-full">
             <Link href="">Shop Merch (coming soon)</Link>
           </Button> */}
@@ -62,9 +52,7 @@ export function Linktree() {
             variant={"aglink"}
             asChild
           >
-            <Link href="https://acidgambit.gumroad.com/">
-              Shop Training Programs
-            </Link>
+            <Link href="https://acidgambit.com/">Shop Merch</Link>
           </Button>
           <Button
             onClick={() => {
@@ -75,7 +63,6 @@ export function Linktree() {
           >
             <Link href="https://acidgambit.substack.com/">AG Writing</Link>
           </Button>
-          <ReferralButton />
         </div>
         <Socials />
       </div>
